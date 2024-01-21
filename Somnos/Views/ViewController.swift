@@ -173,6 +173,8 @@ class ViewController: UIViewController, ARSCNViewDelegate, MenuListControllerDel
             
         }
         
+        testLabel.isHidden = true
+        
         timerLabel.text = "00 : 00 : 00"
         timerLabel.isHidden = true
         
